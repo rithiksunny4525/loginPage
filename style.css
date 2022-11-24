@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(219, 217, 217);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 550px;
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 0 10px rgb(110, 110, 110,.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.box, .box button{
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 240px;
+    flex-direction: column;
+    align-items: center;
+}
+.box button{
+    margin-top: 20px;
+    width: 330px;
+    height: 40px;
+    background-color: #fff;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 20px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.box button:hover{
+    cursor: pointer;
+}
+.box button img{
+    margin: 0 .5rem;
+
+}
+.box-one h2{
+    align-items: center;
+}
+
+.box-one i{
+    color: #00acee;
+}
+
+.box-two input{
+    position: relative;
+    width: 300px;
+    height: 55px;
+    outline: none;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.box-two input::placeholder{
+    font-size: 1rem;
+
+}
+.box-two input:focus{
+    border: 1px solid #00acee;
+}
+.box-two .next-btn{
+    background-color: #121212;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.box-two .next-btn:hover{
+    background: rgb(178, 143, 143);
+    color: #121212;
+}
+.container p{
+    font-size: 1rem;
+    color: rgb(138, 136, 136);
+}
+.container p a{
+    text-decoration: none;
+    color: #00acee;
+}
+
+.box-two .bottom{
+    margin-top: 50px;
+    padding-right: 70px;
+}
